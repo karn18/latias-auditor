@@ -1,3 +1,4 @@
+![Auditor](https://github.com/karn18/latias-auditor/blob/main/auditor.png)
 # Latias::Auditor
 This gem provides the ability to log audit events to database
 
