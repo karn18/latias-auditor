@@ -28,3 +28,10 @@ And generate Audit model:
 $ rails generate auditor:install
 $ rails db:migrate
 ```
+
+Auditor has 2 modes:
+- Sync: Call Active Job to persist audit
+- Async: Call model directly to persist audit
+
+You can configure mode in `app/config/intializers/auditor.rb`
+ 
