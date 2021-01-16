@@ -34,4 +34,3 @@ Auditor has 2 modes:
 - Async: Call model directly to persist audit
 
 You can configure mode in `app/config/intializers/auditor.rb`
- 
