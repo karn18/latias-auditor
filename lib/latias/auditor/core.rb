@@ -1,8 +1,6 @@
 module Latias
   module Auditor
     module Core
-      private
-
       ##
       # Audit Log with actor, tagged and message
       #
