@@ -1,3 +1,4 @@
+require 'latias/auditor'
 module Latias
   module Auditor
     class Engine < ::Rails::Engine

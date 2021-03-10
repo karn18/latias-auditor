@@ -42,5 +42,5 @@ module Latias
 end
 
 module Kernel
-  extend Latias::Auditor::Core
+  include Latias::Auditor::Core
 end
