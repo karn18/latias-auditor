@@ -41,4 +41,6 @@ module Latias
   end
 end
 
-self.extend Latias::Auditor::Core
+module Kernel
+  extend Latias::Auditor::Core
+end
